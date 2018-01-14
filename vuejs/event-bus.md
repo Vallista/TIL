@@ -16,7 +16,7 @@ Event Bus는 기본적으로 제작한 vue 컴포넌트에서 새로운 vue inst
 
 vue instance를 새로 만들어서 $on으로 이벤트를 만들어주고, $emit으로 호출하면 끝이다. 아래의 예제를 보도록 하자.
 
-```
+```javascript
 Vue.component('button-component', {
     name: 'button-component',
     template: '<button @click="this.clickEvent">Alert Print!</button>',
