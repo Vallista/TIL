@@ -1,4 +1,4 @@
-# Event Bus (in Vue)
+# Event Bus (in Vue) 2018/01/14
 
 ## 사용하게 된 계기
 
@@ -104,3 +104,9 @@ target.$on은 target의 상위 객체에 넘긴 함수를 string과 함께 전�
 #### $emit
 
 target.$emit은 $on으로 등록한 이벤트를 실행시키는 역할을 맡는다.
+
+## 추가
+
+사실 vue는 양방향 데이터 바인딩을 지원한다. 이는 $emit을 이용해서 자신의 parent에 보내고 전달을 하면 되기 때문인데, 나는 이러한 구조가 컨트롤과 명시성이 애매해진다고 생각한다.
+
+그래서 emit 자체를 싱글톤 처럼 하나의 new instance로 만들어줫다.
