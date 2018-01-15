@@ -8,4 +8,10 @@
 
 - [Browserify](http://browserify.org/)
 
-browserify는 node module들을 require 가능하도록 해주는 모듈입니다. 
+browserify는 node module들을 require 가능하도록 해주는 모듈입니다.
+
+## N
+
+- [NightWatch](http://nightwatchjs.org/)
+
+NightWatch는 브라우저에서 실시간 감시를 통한 테스트를 쉽게 해주는 모듈입니다.
