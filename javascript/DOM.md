@@ -42,8 +42,25 @@ DOM에서 부자 관계를 표현 할 수 있는 이유는 어트리뷰트들이
 
 ## DOM Tree
 
-HTML 문서를 로드 한 후 생성하는 모델을 의미하는데, 객체의 트리로 구조화 되어 있기 때문에 DOM Tree라고 불림.
+HTML 문서를 로드 한 후 생성하는 모델을 의미하는데, 객체의 트리로 구조화 되어 있기 때문에 DOM Tree라고 불린다.
 
-```javascript
-
+```html
+<html>
+  <head>
+    <title>Test</title>
+    <style>
+      .red { color: red }
+      .blue { color: blue }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>test</h1>
+      <ul>
+        <li>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
 ```
